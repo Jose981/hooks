@@ -15,7 +15,8 @@ function App() {
       <h1>Buscador de personajes</h1>
 
       <hr />
-
+      <div class="container">
+        <div class="container-personaje">
       <h2>Buscar Pokémon</h2>
 
       <input
@@ -30,9 +31,9 @@ function App() {
           <img src={pokemon.sprites.front_default} />
         </div>
       )}
-
+</div>
       <hr />
-
+      <div class="container-personaje">
       <h2>Buscar personaje Rick & Morty</h2>
 
       <input
@@ -48,6 +49,8 @@ function App() {
             <img src={p.image} />
           </div>
         ))}
+        </div>
+        </div>
     </>
   );
 }
